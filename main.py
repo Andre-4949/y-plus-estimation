@@ -154,7 +154,7 @@ if __name__ == "__main__":
 	print("Estimated Wall Distance (y+): {:.6f} m".format(results['wall_distance']))
 	print("Total Boundary Layer Thickness: {:.6f} m".format(results['total_boundary_layer_thickness']))
 	print("Number of Prism Layer Cells: {}".format(results['number_of_prism_layers']))
-	print("In Star-CCM+, set the total thickness to {} meters, the number of layers to {}, and the growth rate to {}.".format(
+	print("In your CFD software, set the total thickness of all prism/inflation layers to {} meters, the number of prism/inflation layers to {}, and the growth rate to {}.".format(
 		results['total_boundary_layer_thickness'],
 		results['number_of_prism_layers'],
 		growth_rate
